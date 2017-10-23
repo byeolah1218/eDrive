@@ -41,3 +41,244 @@ p {
    min-height: 1px;
    margin:0 2% 20px;
  }
+
+
+ @media (min-width: 768px) {
+   .container {
+     width: 750px;
+   }
+ }
+ @media (min-width: 992px) {
+   .container {
+     width: 970px;
+   }
+   .one-half {
+     width:46%;
+   }
+   .one-third {
+     width:29.33333%;
+   }
+   .one-fourth {
+     width:21%;
+   }
+ }
+ @media (min-width: 1200px) {
+   .container {
+     width: 1170px;
+   }
+ }
+
+ /* HEADER */
+ header {
+   color:#333333;
+   background: url("../images/main-image.png")top center no-repeat;
+   background-size:cover;
+   text-align: left;
+ }
+ header nav {
+   padding:1em 0;
+ }
+ header nav ul {
+   display:inline;
+   text-align: right;
+   float:right;
+   margin:0;
+ }
+ header nav ul > li {
+   list-style-type: none;
+   display: inline-block;
+   margin:0 15px;
+ }
+ header nav ul > li.btn-outline {
+   padding:10px 15px;
+   border:2px solid #FFFFFF;
+   border-radius: 4px;
+ }
+ header nav ul > li.btn-outline:hover {
+   background:#FFFFFF;
+ }
+ header nav ul > li > a {
+   color:#FFFFFF;
+   text-decoration: none;
+ }
+ header nav ul > li.btn-outline:hover > a {
+   color:#34495E;
+ }
+ header .hero {
+  text-align: left;
+  display:block;
+  position: relative;
+}
+header .hero h1 {
+  font-size:48px;
+  font-weight: normal;
+  margin:95px 0 0;
+}
+header .hero h3 {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 100;
+  margin:10px 0 40px;
+}
+header .hero img {
+  display: block;
+  margin:3em auto 0;
+}
+.btn {
+   font-family: "Montserrat", Helvetica, Arial, sans-serif;
+   border-radius: 4px;
+   color:#FFFFFF;
+   font-weight: 100;
+   text-decoration: none;
+   padding:10px 30px;
+   background: #2e3192;
+   border: 2px solid #2e3192;
+ }
+ .benefits {
+  text-align: center;
+  display:block;
+  position:relative;
+}
+.benefits ul {
+  margin: 0 auto;
+  padding:4em 0;
+}
+.benefits ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.benefits h2 {
+  color:#2e3192;
+}
+ /* FIND */
+ .Find {
+   margin: 0 auto;
+   padding:4em 0;
+   text-align: center;
+ }
+
+
+ /* PRICING */
+ .pricing {
+   background: url("../images/pricing.png") top center no-repeat;
+   background-size:cover;
+   text-align: center;
+   padding:4em 0;
+ }
+ .pricing h2, .pricing p {
+   color:#333333;
+ }
+ .pricing ul {
+   margin:0 auto;
+   padding:1em 0;
+ }
+ .pricing ul li {
+   list-style-type: none;
+ }
+ .box {
+  padding:0 15px 15px;
+  background: rgba(255,255,255,0.80);
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+  min-height: 400px;
+  position: relative;
+  margin-top: 25px;
+}
+
+.box h3 {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  left:0;
+  right:0;
+  top:0;
+  text-align: center;
+  margin:0 -15px 40px;
+  padding:10px 0;
+}
+.box h2 {
+  font-size:36px;
+  font-weight: normal;
+  margin:40px 0 10px;
+  color:#333333;
+}
+.box h2 span {
+  font-size:28px;
+  vertical-align: top;
+}
+.box h2 span.month {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  color:#888888;
+  font-size:20px;
+  vertical-align: middle;
+}
+.box ul li {
+  font-size:18px;
+  margin-bottom:20px;
+  font-weight: 100;
+}
+.box .btn {
+  position:absolute;
+  bottom:20px;
+  left:40px;
+  right:40px;
+}
+.small {
+  font-size: 12px;
+  color: #333333;
+  line-height: 15px;
+  font-style:italic;
+}
+/* TESTIMONIALS */
+.testimonials {
+  padding:4em 0;
+  text-align: center;
+}
+.testimonials h3 {
+  color:#333333;
+}
+.testimonials ul li {
+  list-style-type: none;
+}
+.testimonials blockquote {
+  color:#333333;
+  text-align: left;
+  font-style: italic;
+  background:#f0f4f9;
+  position: relative;
+  padding:30px;
+  width:auto;
+  margin:0;
+}
+.testimonials blockquote:after {
+  top: 100%;
+  left: 13%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-top-color: #f0f4f9;
+  border-width: 10px;
+  margin-left: -10px;
+}
+.testimonials img {
+  height: 65px;
+  width: 65px;
+  border-radius:50%;
+  float: left;
+  display: inline-block;
+  margin:20px 10px 0 0;
+}
+.testimonials p.name {
+  float: left;
+  display: inline-block;
+  text-align: left;
+  font-size:13px;
+  margin-top: 30px;
+}
+.move{
+   padding-top: 20px;
+ }
