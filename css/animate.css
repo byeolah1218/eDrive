@@ -11,6 +11,7 @@
 .animated {
   animation-duration: 2s;
   animation-fill-mode: both;
+  transition: opacity 2s;
 }
 
 .animated.infinite {
