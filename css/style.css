@@ -67,10 +67,17 @@ p {
      width: 1170px;
    }
  }
+ @media (min-width: 375px) and (max-width: 667px){
+   .container {
+     width: 365px;
+   }
+ }
+
 
  /* HEADER */
  header {
    color:#333333;
+   height: 900px;
    background: url("../images/main-image.png")top center no-repeat;
    background-size:cover;
    text-align: left;
@@ -113,12 +120,14 @@ header .hero h1 {
   font-size:48px;
   font-weight: normal;
   margin:95px 0 0;
+  padding-top: 100px;
 }
 header .hero h3 {
   font-size: 22px;
   line-height: 26px;
   font-weight: 100;
   margin:10px 0 40px;
+  padding-top: 30px;
 }
 header .hero img {
   display: block;
@@ -138,6 +147,8 @@ header .hero img {
   text-align: center;
   display:block;
   position:relative;
+  background: #ffffff;
+  box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.20);
 }
 .benefits ul {
   margin: 0 auto;
@@ -152,7 +163,9 @@ header .hero img {
   color:#2e3192;
 }
  /* FIND */
- .Find {
+ .find {
+   background: #ffffff;
+   box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.50);
    margin: 0 auto;
    padding:4em 0;
    text-align: center;
@@ -179,7 +192,7 @@ header .hero img {
  .box {
   padding:0 15px 15px;
   background: rgba(255,255,255,0.80);
-  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
   min-height: 400px;
   position: relative;
   margin-top: 25px;
@@ -281,4 +294,15 @@ header .hero img {
 }
 .move{
    padding-top: 20px;
+ }
+ /* READY */
+ .ready {
+   background: #ffffff;
+   box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.50);
+   margin: 0 auto;
+   padding:4em;
+   text-align: center;
+ }
+ .ready h3 {
+   line-height: 24px;
  }
