@@ -67,17 +67,13 @@ p {
      width: 1170px;
    }
  }
- @media (min-width: 375px) and (max-width: 667px){
-   .container {
-     width: 365px;
-   }
- }
+
 
 
  /* HEADER */
  header {
    color:#333333;
-   height: 900px;
+  height: 900px;
    background: url("../images/main-image.png")top center no-repeat;
    background-size:cover;
    text-align: left;
