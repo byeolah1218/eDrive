@@ -421,10 +421,6 @@ footer ul li {
    color:#3D4FB1;
    font-weight: 800;
  }
- .left-nav .items ul li a:visited {
-   color:#3D4FB1;
-   font-weight: 800;
- }
  .left-nav .items ul li a i {
    width:16px;
    text-align: center;
@@ -461,6 +457,7 @@ footer ul li {
    float:right;
    background:#ffffff;
    margin:0 2%;
+   padding:10px 0;
  }
  .content .settings img {
    height:35px;
