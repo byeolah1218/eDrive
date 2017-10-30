@@ -319,20 +319,33 @@ footer ul li {
     float:right;
     text-align: right;
   }
-@media (max-width: 400px){
-header .hero h1  {
+  @media (max-width: 400px){
+  header .hero h1  {
+      text-align: center;
+      color:#3D4FB1;
+      text-shadow: 2px 2px #ffffff;
+    }
+  header .hero h3 {
     text-align: center;
     color:#3D4FB1;
-    text-shadow: 2px 2px #ffffff;
   }
-header .hero h3 {
-  text-align: center;
-  color:#3D4FB1;
-}
-header .btn {
-  margin-left: 70px;
-}
+  header .btn {
+    margin-left: 70px;
   }
+  footer .container {
+    text-align: center;
+  }
+  footer ul li {
+    text-align: center;
+    font-size: 9px;
+    float:right;
+    padding-right: 40px;
+  }
+  footer p {
+    font-size: 9px;
+  }
+    }
+
   @media (min-width: 992px) {
     .container {
       width: 970px;
@@ -408,42 +421,16 @@ header .btn {
    color:#3D4FB1;
    font-weight: 800;
  }
+ .left-nav .items ul li a:visited {
+   color:#3D4FB1;
+   font-weight: 800;
+ }
  .left-nav .items ul li a i {
    width:16px;
    text-align: center;
    margin-right:8px;
  }
- .left-nav .settings {
-   position:absolute;
-   background:#f1f3f8;
-   width:100%;
-   bottom:0;
-   left:0;
-   right:0;
-   padding:10px 0;
- }
- .left-nav .settings img {
-   height:35px;
-   width:35px;
-   border-radius: 50%;
-   margin-left:10px;
-   display: inline-block;
- }
- .left-nav .settings p {
-   display: inline-block;
-   vertical-align: top;
-   padding-top: 8px;
-   font-weight: 400;
-   margin:0 0 0 10px;
- }
- .left-nav .settings a {
-   color:#5b5b5b;
-   text-decoration: none;
-   text-align: right;
-   float: right;
-   margin-right:10px;
-   margin-top:8px;
- }
+
  /* CONTENT */
  .content {
    padding:6em 1% 1.5em;
@@ -453,6 +440,7 @@ header .btn {
  }
  .content .header {
    margin:0 1% 20px;
+   float: left;
  }
  .content .header h1 {
    font-family: "Montserrat", Helvetica, Arial, sans-serif;
@@ -469,6 +457,39 @@ header .btn {
    margin-left: 30px;
    color: #3D4FB1;
  }
+ .content .settings {
+   float:right;
+   background:#ffffff;
+   margin:0 2%;
+ }
+ .content .settings img {
+   height:35px;
+   width:35px;
+   border-radius: 50%;
+   margin-left:10px;
+   display: inline-block;
+ }
+ .content .settings p {
+   display: inline-block;
+   vertical-align: top;
+   padding-top: 8px;
+   font-weight: 400;
+   margin:0 0 0 10px;
+ }
+ .content .settings a {
+   color:#5b5b5b;
+   text-decoration: none;
+   text-align: right;
+   float: right;
+   margin-right:10px;
+   margin-top:8px;
+ }
+ .settings {
+   float:right;
+ }
+
+
+
  .content-item {
    width:96%;
    margin:0 2% 25px;
