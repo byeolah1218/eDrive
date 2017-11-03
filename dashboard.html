@@ -16,6 +16,8 @@
   </head>
 
   <body class="dashboard">
+    <!-- RESPONSIVE NAV -->
+   <a class="hamburger" id="menu" href="#">&#9776;</a>
     <!-- LEFT NAV -->
    <nav id="left-nav" class="left-nav">
      <a href="#" class="site-logo"><img src="images/site-logo.png" /></a>
@@ -56,9 +58,6 @@
        </ul>
         </div>
 
-       <!--<div class="settings">
-       <a href="#"> <img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg"></a>
-     </div> -->
 
      <div class="container">
        <div class="content-item">
@@ -122,10 +121,13 @@
    </section>
  </main>
 
- <script src="js/jquery-2.1.3.min.js"></script>
+ <script src="js/jquery-3.2.1.min.js"></script>
    <script src="js/dropit.js"></script>
    <script type="text/javascript">
      $(".settings").dropit();
+     $( "#menu" ).click(function() {
+        $("#left-nav").toggleClass("open", 200);
+    });
    </script>
 
  </body>

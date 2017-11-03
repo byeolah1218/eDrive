@@ -9,13 +9,16 @@
 
 /* These styles assume you are using ul and li */
 .dropit {
-    list-style: none;
+  list-style: none;
 	padding: 0;
-  margin: 15px 0 0;
+  margin: 100px 0 0;
   float:right;
   display:inline-block;
+  text-align: left;
 }
-.dropit .dropit-trigger { position: relative; }
+.dropit .dropit-trigger {
+  position: relative;
+}
 .dropit .dropit-submenu {
     position: absolute;
     top: 100%;
@@ -25,7 +28,8 @@
     min-width: 100px;
     list-style: none;
 	padding: 20px;
-	margin: 20px 0 0;
+	margin: 50px 0 0;
+
 }
 .dropit .dropit-open .dropit-submenu {
   display: block;
@@ -51,10 +55,12 @@
  }
  .dropit .dropit-open .dropit-submenu li:last-child {
   margin-bottom: 0px;
+
  }
  .dropit .dropit-open .dropit-submenu li a {
   color:#34495E;
   text-decoration: none;
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight:100;
+  line-height: 25px;
  }
